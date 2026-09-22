@@ -1,0 +1,42 @@
+{
+  "trained_at_utc": "2026-09-22T07:01:13.283820+00:00",
+  "data_mode": "real_historical_public_sources",
+  "targets": {
+    "onset": {
+      "model_file": "onset_model.pkl",
+      "threshold": 0.2,
+      "training_rows": 56160,
+      "validation_rows": 12480,
+      "training_positive_rate": 0.058903133903133904,
+      "brier_score": 0.04326759302341587,
+      "roc_auc": 0.8815093279750036
+    },
+    "break": {
+      "model_file": "break_model.pkl",
+      "threshold": 0.2,
+      "training_rows": 77040,
+      "validation_rows": 17120,
+      "training_positive_rate": 0.13986240913811007,
+      "brier_score": 0.05614975918969269,
+      "roc_auc": 0.8039373544317694
+    },
+    "revival": {
+      "model_file": "revival_model.pkl",
+      "threshold": 0.24,
+      "training_rows": 77040,
+      "validation_rows": 17120,
+      "training_positive_rate": 0.05363447559709242,
+      "brier_score": 0.03030400691474303,
+      "roc_auc": 0.8562225263622573
+    },
+    "heavy_rain": {
+      "model_file": "heavy_rain_model.pkl",
+      "threshold": 0.2,
+      "training_rows": 89280,
+      "validation_rows": 19840,
+      "training_positive_rate": 0.07432795698924731,
+      "brier_score": 0.04463725559802778,
+      "roc_auc": 0.7558978113712742
+    }
+  }
+}

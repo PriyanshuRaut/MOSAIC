@@ -1,0 +1,11 @@
+state,district,block,panchayat,latitude,longitude
+West Bengal,Nadia,HistoricalGrid,RepresentativePoint,23.4009,88.5014
+Odisha,Khordha,HistoricalGrid,RepresentativePoint,20.2961,85.8245
+Bihar,Patna,HistoricalGrid,RepresentativePoint,25.5941,85.1376
+Maharashtra,Nagpur,HistoricalGrid,RepresentativePoint,21.1458,79.0882
+Maharashtra,Mumbai Suburban,HistoricalGrid,RepresentativePoint,19.0760,72.8777
+Gujarat,Ahmedabad,HistoricalGrid,RepresentativePoint,23.0225,72.5714
+Telangana,Hyderabad,HistoricalGrid,RepresentativePoint,17.3850,78.4867
+Assam,Kamrup Metropolitan,HistoricalGrid,RepresentativePoint,26.1445,91.7362
+Kerala,Thiruvananthapuram,HistoricalGrid,RepresentativePoint,8.5241,76.9366
+Rajasthan,Jaipur,HistoricalGrid,RepresentativePoint,26.9124,75.7873

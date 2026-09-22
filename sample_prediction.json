@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-18",
+  "state": "West Bengal",
+  "district": "Nadia",
+  "block": "Krishnanagar I",
+  "panchayat": "Dogachhi",
+  "rainfall_1d": 12.4,
+  "rainfall_3d": 38.1,
+  "rainfall_7d": 74.5,
+  "rainfall_14d": 102.3,
+  "rainfall_anomaly_pct": 14.0,
+  "soil_moisture": 0.61,
+  "humidity": 83.0,
+  "temperature_c": 29.4,
+  "wind_speed_ms": 4.8,
+  "enso": -0.3,
+  "iod": 0.2,
+  "mjo_phase": 4,
+  "mjo_amplitude": 1.4,
+  "weeks": [
+    {
+      "lead_week": 1,
+      "nwp_rainfall_mm": 96.0,
+      "nwp_rainfall_anomaly_pct": 22.0,
+      "nwp_ensemble_spread_mm": 14.0
+    },
+    {
+      "lead_week": 2,
+      "nwp_rainfall_mm": 48.0,
+      "nwp_rainfall_anomaly_pct": -18.0,
+      "nwp_ensemble_spread_mm": 19.0
+    },
+    {
+      "lead_week": 3,
+      "nwp_rainfall_mm": 34.0,
+      "nwp_rainfall_anomaly_pct": -31.0,
+      "nwp_ensemble_spread_mm": 25.0
+    },
+    {
+      "lead_week": 4,
+      "nwp_rainfall_mm": 87.0,
+      "nwp_rainfall_anomaly_pct": 16.0,
+      "nwp_ensemble_spread_mm": 31.0
+    }
+  ]
+}

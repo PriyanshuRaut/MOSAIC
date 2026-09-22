@@ -1,0 +1,82 @@
+random_seed: 42
+
+targets:
+  - onset
+  - break
+  - revival
+  - heavy_rain
+
+split:
+  train_end_year: 2018
+  validation_end_year: 2022
+  test_end_year: 2025
+
+target_issue_months:
+  onset: [5, 6, 7]
+  break: [6, 7, 8, 9]
+  revival: [6, 7, 8, 9]
+  heavy_rain: [5, 6, 7, 8, 9]
+
+categorical_features:
+  - state
+  - district
+  - block
+  - panchayat
+
+numeric_features:
+  - latitude
+  - longitude
+  - lead_week
+  - rainfall_1d
+  - rainfall_3d
+  - rainfall_7d
+  - rainfall_14d
+  - rainfall_30d
+  - rainfall_anomaly_pct
+  - rainy_days_7d
+  - dry_days_7d
+  - soil_moisture
+  - soil_moisture_7d_mean
+  - humidity
+  - humidity_7d_mean
+  - temperature_c
+  - temperature_7d_mean
+  - wind_speed_ms
+  - wind_7d_mean
+  - enso
+  - iod
+  - mjo_phase
+  - mjo_amplitude
+  - rmm1
+  - rmm2
+  - month
+  - week_of_year
+  - day_of_year
+  - month_sin
+  - month_cos
+  - doy_sin
+  - doy_cos
+  - mjo_phase_sin
+  - mjo_phase_cos
+  - mjo_active
+  - rainfall_7d_mean
+  - rainfall_14d_mean
+  - rainfall_acceleration
+  - recent_rain_share
+  - soil_rain_interaction
+  - enso_iod_interaction
+
+xgboost:
+  n_estimators: 350
+  max_depth: 5
+  learning_rate: 0.035
+  subsample: 0.85
+  colsample_bytree: 0.85
+  min_child_weight: 3
+  reg_alpha: 0.10
+  reg_lambda: 1.5
+  tree_method: hist
+
+probability:
+  calibration: platt
+  default_threshold: 0.50

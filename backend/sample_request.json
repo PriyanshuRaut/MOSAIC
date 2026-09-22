@@ -1,0 +1,45 @@
+{
+  "state": "West Bengal",
+  "district": "Nadia",
+  "block": "Krishnanagar I",
+  "panchayat": "Pilot",
+  "latitude": 23.4009,
+  "longitude": 88.5014,
+  "date": "2026-06-18",
+  "rainfall_1d": 6.2,
+  "rainfall_3d": 17.4,
+  "rainfall_7d": 34.1,
+  "rainfall_14d": 52.8,
+  "rainfall_30d": 91.5,
+  "rainfall_anomaly_pct": 11.0,
+  "rainy_days_7d": 4,
+  "dry_days_7d": 2,
+  "soil_moisture": 0.61,
+  "soil_moisture_7d_mean": 0.58,
+  "humidity": 84.0,
+  "humidity_7d_mean": 81.2,
+  "temperature_c": 29.3,
+  "temperature_7d_mean": 30.1,
+  "wind_speed_ms": 2.8,
+  "wind_7d_mean": 2.5,
+  "enso": -0.4,
+  "iod": 0.2,
+  "mjo_phase": 4,
+  "mjo_amplitude": 1.4,
+  "rmm1": -0.7,
+  "rmm2": 1.2,
+  "weeks": [
+    {
+      "lead_week": 1
+    },
+    {
+      "lead_week": 2
+    },
+    {
+      "lead_week": 3
+    },
+    {
+      "lead_week": 4
+    }
+  ]
+}

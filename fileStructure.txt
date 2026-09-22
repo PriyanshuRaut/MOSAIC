@@ -1,0 +1,179 @@
+mosaic/
+│
+├── frontend/                         # Next.js web application
+│   ├── app/
+│   │   ├── page.tsx                 # Main dashboard
+│   │   ├── layout.tsx
+│   │   ├── globals.css
+│   │   │
+│   │   ├── dashboard/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── forecast/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── advisory/
+│   │   │   └── page.tsx
+│   │   │
+│   │   ├── analytics/
+│   │   │   └── page.tsx
+│   │   │
+│   │   └── methodology/
+│   │       └── page.tsx
+│   │
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   └── PageHeader.tsx
+│   │   │
+│   │   ├── dashboard/
+│   │   │   ├── RiskCard.tsx
+│   │   │   ├── ForecastSummary.tsx
+│   │   │   ├── ClimateSignals.tsx
+│   │   │   └── AdvisoryCard.tsx
+│   │   │
+│   │   ├── map/
+│   │   │   ├── IndiaMap.tsx
+│   │   │   ├── RiskMap.tsx
+│   │   │   └── MapLegend.tsx
+│   │   │
+│   │   ├── charts/
+│   │   │   ├── RainfallChart.tsx
+│   │   │   ├── ProbabilityChart.tsx
+│   │   │   └── ClimateChart.tsx
+│   │   │
+│   │   └── ui/
+│   │       ├── Card.tsx
+│   │       ├── Badge.tsx
+│   │       └── Loading.tsx
+│   │
+│   ├── data/
+│   │   ├── demoForecast.ts
+│   │   ├── locations.ts
+│   │   └── crops.ts
+│   │
+│   ├── lib/
+│   │   ├── api.ts
+│   │   ├── utils.ts
+│   │   └── constants.ts
+│   │
+│   ├── types/
+│   │   ├── forecast.ts
+│   │   ├── advisory.ts
+│   │   └── location.ts
+│   │
+│   ├── public/
+│   │   ├── logo/
+│   │   ├── icons/
+│   │   ├── maps/
+│   │   └── images/
+│   │
+│   ├── package.json
+│   ├── next.config.ts
+│   └── tsconfig.json
+│
+│
+├── backend/                          # FastAPI production API
+│   ├── app/
+│   │   ├── main.py
+│   │   │
+│   │   ├── api/
+│   │   │   ├── forecast.py
+│   │   │   ├── advisory.py
+│   │   │   ├── climate.py
+│   │   │   └── health.py
+│   │   │
+│   │   ├── schemas/
+│   │   │   ├── forecast.py
+│   │   │   ├── advisory.py
+│   │   │   └── climate.py
+│   │   │
+│   │   ├── services/
+│   │   │   ├── prediction_service.py
+│   │   │   ├── advisory_service.py
+│   │   │   └── climate_service.py
+│   │   │
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   └── constants.py
+│   │   │
+│   │   └── utils/
+│   │       └── helpers.py
+│   │
+│   ├── requirements.txt
+│   └── .env.example
+│
+│
+├── ml/                               # Complete ML research + training
+│   │
+│   ├── data/
+│   │   ├── raw/                      # Original downloaded data
+│   │   │   ├── rainfall/
+│   │   │   ├── enso/
+│   │   │   ├── iod/
+│   │   │   ├── mjo/
+│   │   │   ├── nwp/
+│   │   │   └── soil_moisture/
+│   │   │
+│   │   ├── interim/                  # Cleaned but not final
+│   │   │
+│   │   └── processed/                # Training-ready data
+│   │       ├── train.csv
+│   │       ├── validation.csv
+│   │       └── test.csv
+│   │
+│   ├── src/
+│   │   ├── preprocess.py
+│   │   ├── features.py
+│   │   ├── train.py
+│   │   ├── evaluate.py
+│   │   ├── predict.py
+│   │   ├── probability.py
+│   │   └── utils.py
+│   │
+│   ├── models/
+│   │   ├── onset_model.pkl
+│   │   ├── break_model.pkl
+│   │   ├── revival_model.pkl
+│   │   └── heavy_rain_model.pkl
+│   │
+│   ├── config/
+│   │   └── model_config.yaml
+│   │
+│   ├── experiments/
+│   │   └── README.md
+│   │
+│   ├── notebooks/
+│   │   └── exploration.ipynb
+│   │
+│   ├── requirements.txt
+│   └── README.md
+│
+│
+├── shared/                           # Data/contracts shared between systems
+│   ├── geo/
+│   │   ├── states/
+│   │   ├── districts/
+│   │   ├── blocks/
+│   │   └── panchayats/
+│   │
+│   └── sample-data/
+│       └── demo_forecast.json
+│
+│
+├── scripts/                          # Utility scripts
+│   ├── download_data.py
+│   ├── build_dataset.py
+│   └── train_all_models.py
+│
+│
+├── docs/
+│   ├── architecture.md
+│   ├── model.md
+│   ├── datasets.md
+│   └── api.md
+│
+├── .gitignore
+├── README.md
+└── LICENSE

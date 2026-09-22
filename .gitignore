@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.log
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.env
+!.env.example
+ml/data/raw/*
+ml/data/interim/*
+ml/data/processed/*
+ml/models/*.pkl
