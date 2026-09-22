@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f7f9;
+  --foreground: #15232d;
+  --navy: #0f2d3a;
+  --navy-2: #173f4f;
+  --teal: #0f766e;
+  --teal-soft: #e9f5f3;
+  --blue: #1d5f83;
+  --amber: #a86410;
+  --red: #b43c3c;
+  --line: #dce5ea;
+  --muted: #627581;
+  --surface: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  margin: 0;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top right, rgba(15, 118, 110, 0.045), transparent 26rem),
+    var(--background);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(15, 118, 110, 0.18);
+}
+
+.mosaic-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 1px 2px rgba(15, 45, 58, 0.025);
+}
+
+.mosaic-card-header {
+  border-bottom: 1px solid #edf2f5;
+}
+
+.mosaic-label {
+  color: #60727e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+}
+
+.mosaic-input {
+  width: 100%;
+  border: 1px solid #cfdae0;
+  background: white;
+  border-radius: 9px;
+  padding: 0.68rem 0.78rem;
+  color: #20313b;
+  outline: none;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.mosaic-input:focus {
+  border-color: #5d9a99;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.08);
+}
+
+.mosaic-btn-primary {
+  border: 1px solid #0f665f;
+  background: #0f766e;
+  color: white;
+  border-radius: 9px;
+  padding: 0.68rem 1rem;
+  font-weight: 700;
+  transition: background 160ms ease;
+}
+
+.mosaic-btn-primary:hover {
+  background: #0d6861;
+}
+
+.mosaic-btn-primary:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.mosaic-btn-secondary {
+  border: 1px solid #ccd9df;
+  background: #fff;
+  color: #304653;
+  border-radius: 9px;
+  padding: 0.68rem 1rem;
+  font-weight: 650;
+}
+
+.mosaic-grid {
+  background-image:
+    linear-gradient(to right, rgba(26, 66, 80, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(26, 66, 80, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+  background: #eaf1f3;
+}
+
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: #e8eef1;
+}
+
+@media (max-width: 1024px) {
+  .desktop-sidebar {
+    display: none;
+  }
+}
