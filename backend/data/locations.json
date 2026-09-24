@@ -1,0 +1,82 @@
+[
+  {
+    "state": "Assam",
+    "district": "Kamrup Metropolitan",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 26.1445,
+    "longitude": 91.7362
+  },
+  {
+    "state": "Bihar",
+    "district": "Patna",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 25.5941,
+    "longitude": 85.1376
+  },
+  {
+    "state": "Gujarat",
+    "district": "Ahmedabad",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 23.0225,
+    "longitude": 72.5714
+  },
+  {
+    "state": "Kerala",
+    "district": "Thiruvananthapuram",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 8.5241,
+    "longitude": 76.9366
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Mumbai Suburban",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 19.076,
+    "longitude": 72.8777
+  },
+  {
+    "state": "Maharashtra",
+    "district": "Nagpur",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 21.1458,
+    "longitude": 79.0882
+  },
+  {
+    "state": "Odisha",
+    "district": "Khordha",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 20.2961,
+    "longitude": 85.8245
+  },
+  {
+    "state": "Rajasthan",
+    "district": "Jaipur",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 26.9124,
+    "longitude": 75.7873
+  },
+  {
+    "state": "Telangana",
+    "district": "Hyderabad",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 17.385,
+    "longitude": 78.4867
+  },
+  {
+    "state": "West Bengal",
+    "district": "Nadia",
+    "block": "HistoricalGrid",
+    "panchayat": "RepresentativePoint",
+    "latitude": 23.4009,
+    "longitude": 88.5014
+  }
+]
