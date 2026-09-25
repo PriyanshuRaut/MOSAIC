@@ -6,8 +6,9 @@
       "framework": "nextjs"
     },
     "backend": {
-      "root": "backend/",
-      "entrypoint": "app.main:app"
+      "root": "./",
+      "entrypoint": "Dockerfile.vercel",
+      "runtime": "container"
     }
   },
   "rewrites": [
